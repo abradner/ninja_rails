@@ -8,6 +8,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <%= yield %>
+  <%= javascript_include_tag 'google_analytics' %>
+  <%= yield %>
 </body>
 </html>

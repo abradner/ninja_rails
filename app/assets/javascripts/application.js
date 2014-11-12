@@ -12,10 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require default
 
 $(document).ready(function() {
   drawNinja();
   drawSword();
-  startGA();
 });
