@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #112;
+  font-family: monospace;
+  color: #99A;
+}
+
+#canvas-ninja {
+  position: absolute;
+  bottom: 130px;
+  right: 20px;
+}
+
+#canvas-sword {
+  position: absolute;
+  bottom: 0;
+  right: 290px;  
+}
+
+#soon {
+  position: absolute;
+  bottom: 80px;
+  right: 390px;  
+}
+
+#contact {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;  
+}
+
+a, a:visited, a:active, a:hover {
+  color: #99A;
+  text-decoration: none;
+}
